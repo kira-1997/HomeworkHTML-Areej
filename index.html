@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 70%;
+         align-items: center;
+         }
+        
+        td, th {
+          border: 5px solid #dddddd;
+          text-align: center;
+          padding: 5px;
+        }
+        .header {
+         padding: 5px;
+         text-align: center;
+         background: #edf1b1;
+         color: rgb(4, 4, 4);
+         font-size: 30px;
+          }
+         .center{
+            margin-left: auto;
+            margin-right: auto;
+         }
+        </style>
+    </head>
+        <body>
+           
+            <div class="header">
+                <h1>Cars</h1>
+              </div>
+                <br>
+                <table class="center">
+                  <tr>
+                    <th>Cars Name:</th>
+                    <th>Car Img:</td>
+                    <th>Car Price;</th>
+                    <th>Car Website</th>
+                  </tr>
+                    <tr>
+                      <td>Audi</td>
+                      <td><img src="https://toppng.com/uploads/preview/audi-png-car-11545045292cmrkocc2b4.png" style="width:300px;height:200px;"></td>
+                      <td>20000$</td>
+                      <td> <a href="https://www.audi-saudiarabia.com" target="_blank">Audi Website</a></td>
+                    </tr>
+                    <tr>
+                    <td> Marsidi</td>
+                    <td><img src="https://toppng.com/uploads/preview/mercedes-cars-no-background-11663106412ibdtxx1mgd.png" style="width:300px;height:200px;"></td>
+                   <td>
+                  <ul>
+                    <li>40000$</li>
+                    <li>43000$</li>
+                  </ul>
+                   </td> 
+                    <td><a href="https://www.mercedes-benz.com/en/"target="_blank">Marsidi Website</a></td>
+                  </tr>
+                  <tr>
+                  <td> BMW</td>
+                  <td><img src="https://toppng.com/uploads/preview/14-rc-licensed-bmw-i8-authe-aosom-114-scale-bmw-i8-remote-control-car-black-11563498836m0qi000faa.png"  style="width:300px;height:200px;"></td>
+                  <td>20000$</td>
+                  <td><a href="https://www.bmw-saudiarabia.com/>"target="_blank">BMW Website</a></td>      
+                 </tr> 
+                 </table> 
+                 <br>
+
+                 <form action="/action_page.php">
+                    <fieldset>
+                      <legend>Enter your data:</legend>
+                      <label for="fname">First name:</label>
+                      <input type="text" id="fname" name="fname" required>
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email" required>
+                      <label for="pwd">Password:</label>
+                      <input type="password" id="pwd" name="pwd"required>
+                      <label for="birthday">Birthday:</label>
+                      <input type="date" id="birthday" name="birthday"required>
+                      <input type="submit" value="Submit">
+                    </fieldset>
+                  </form>
+        </body>
+       
+</html>
